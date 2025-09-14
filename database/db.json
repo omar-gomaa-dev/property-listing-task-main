@@ -1,0 +1,354 @@
+{
+  "properties": [
+    {
+      "id": 1,
+      "name": "Property 1",
+      "address": "Address 1",
+      "price": 870345,
+      "status": "for sale"
+    },
+    {
+      "id": 2,
+      "name": "Property 2",
+      "address": "Address 2",
+      "price": 620784,
+      "status": "for rent"
+    },
+    {
+      "id": 3,
+      "name": "Property 3",
+      "address": "Address 3",
+      "price": 550123,
+      "status": "already taken"
+    },
+    {
+      "id": 4,
+      "name": "Property 4",
+      "address": "Address 4",
+      "price": 970654,
+      "status": "for sale"
+    },
+    {
+      "id": 5,
+      "name": "Property 5",
+      "address": "Address 5",
+      "price": 345789,
+      "status": "for rent"
+    },
+    {
+      "id": 6,
+      "name": "Property 6",
+      "address": "Address 6",
+      "price": 765234,
+      "status": "already taken"
+    },
+    {
+      "id": 7,
+      "name": "Property 7",
+      "address": "Address 7",
+      "price": 423678,
+      "status": "for sale"
+    },
+    {
+      "id": 8,
+      "name": "Property 8",
+      "address": "Address 8",
+      "price": 189456,
+      "status": "for rent"
+    },
+    {
+      "id": 9,
+      "name": "Property 9",
+      "address": "Address 9",
+      "price": 987321,
+      "status": "already taken"
+    },
+    {
+      "id": 10,
+      "name": "Property 10",
+      "address": "Address 10",
+      "price": 275098,
+      "status": "for sale"
+    },
+    {
+      "id": 11,
+      "name": "Property 11",
+      "address": "Address 11",
+      "price": 635478,
+      "status": "for sale"
+    },
+    {
+      "id": 12,
+      "name": "Property 12",
+      "address": "Address 12",
+      "price": 785623,
+      "status": "for rent"
+    },
+    {
+      "id": 13,
+      "name": "Property 13",
+      "address": "Address 13",
+      "price": 524369,
+      "status": "already taken"
+    },
+    {
+      "id": 14,
+      "name": "Property 14",
+      "address": "Address 14",
+      "price": 892345,
+      "status": "for sale"
+    },
+    {
+      "id": 15,
+      "name": "Property 15",
+      "address": "Address 15",
+      "price": 342789,
+      "status": "for rent"
+    },
+    {
+      "id": 16,
+      "name": "Property 16",
+      "address": "Address 16",
+      "price": 679234,
+      "status": "already taken"
+    },
+    {
+      "id": 17,
+      "name": "Property 17",
+      "address": "Address 17",
+      "price": 472390,
+      "status": "for sale"
+    },
+    {
+      "id": 18,
+      "name": "Property 18",
+      "address": "Address 18",
+      "price": 823564,
+      "status": "for rent"
+    },
+    {
+      "id": 19,
+      "name": "Property 19",
+      "address": "Address 19",
+      "price": 592013,
+      "status": "already taken"
+    },
+    {
+      "id": 20,
+      "name": "Property 20",
+      "address": "Address 20",
+      "price": 123478,
+      "status": "for sale"
+    },
+    {
+      "id": 21,
+      "name": "Property 21",
+      "address": "Address 21",
+      "price": 859234,
+      "status": "for rent"
+    },
+    {
+      "id": 22,
+      "name": "Property 22",
+      "address": "Address 22",
+      "price": 471293,
+      "status": "already taken"
+    },
+    {
+      "id": 23,
+      "name": "Property 23",
+      "address": "Address 23",
+      "price": 761234,
+      "status": "for sale"
+    },
+    {
+      "id": 24,
+      "name": "Property 24",
+      "address": "Address 24",
+      "price": 982345,
+      "status": "for rent"
+    },
+    {
+      "id": 25,
+      "name": "Property 25",
+      "address": "Address 25",
+      "price": 624381,
+      "status": "already taken"
+    },
+    {
+      "id": 26,
+      "name": "Property 26",
+      "address": "Address 26",
+      "price": 748293,
+      "status": "for sale"
+    },
+    {
+      "id": 27,
+      "name": "Property 27",
+      "address": "Address 27",
+      "price": 234987,
+      "status": "for rent"
+    },
+    {
+      "id": 28,
+      "name": "Property 28",
+      "address": "Address 28",
+      "price": 675498,
+      "status": "already taken"
+    },
+    {
+      "id": 29,
+      "name": "Property 29",
+      "address": "Address 29",
+      "price": 923478,
+      "status": "for sale"
+    },
+    {
+      "id": 30,
+      "name": "Property 30",
+      "address": "Address 30",
+      "price": 478234,
+      "status": "for rent"
+    },
+    {
+      "id": 31,
+      "name": "Property 31",
+      "address": "Address 31",
+      "price": 832049,
+      "status": "already taken"
+    },
+    {
+      "id": 32,
+      "name": "Property 32",
+      "address": "Address 32",
+      "price": 526739,
+      "status": "for sale"
+    },
+    {
+      "id": 33,
+      "name": "Property 33",
+      "address": "Address 33",
+      "price": 786204,
+      "status": "for rent"
+    },
+    {
+      "id": 34,
+      "name": "Property 34",
+      "address": "Address 34",
+      "price": 359742,
+      "status": "already taken"
+    },
+    {
+      "id": 35,
+      "name": "Property 35",
+      "address": "Address 35",
+      "price": 492038,
+      "status": "for sale"
+    },
+    {
+      "id": 36,
+      "name": "Property 36",
+      "address": "Address 36",
+      "price": 783240,
+      "status": "for rent"
+    },
+    {
+      "id": 37,
+      "name": "Property 37",
+      "address": "Address 37",
+      "price": 234897,
+      "status": "already taken"
+    },
+    {
+      "id": 38,
+      "name": "Property 38",
+      "address": "Address 38",
+      "price": 672048,
+      "status": "for sale"
+    },
+    {
+      "id": 39,
+      "name": "Property 39",
+      "address": "Address 39",
+      "price": 784239,
+      "status": "for rent"
+    },
+    {
+      "id": 40,
+      "name": "Property 40",
+      "address": "Address 40",
+      "price": 928342,
+      "status": "already taken"
+    },
+    {
+      "id": 41,
+      "name": "Property 41",
+      "address": "Address 41",
+      "price": 324987,
+      "status": "for sale"
+    },
+    {
+      "id": 42,
+      "name": "Property 42",
+      "address": "Address 42",
+      "price": 673492,
+      "status": "for rent"
+    },
+    {
+      "id": 43,
+      "name": "Property 43",
+      "address": "Address 43",
+      "price": 798123,
+      "status": "already taken"
+    },
+    {
+      "id": 44,
+      "name": "Property 44",
+      "address": "Address 44",
+      "price": 524891,
+      "status": "for sale"
+    },
+    {
+      "id": 45,
+      "name": "Property 45",
+      "address": "Address 45",
+      "price": 689324,
+      "status": "for rent"
+    },
+    {
+      "id": 46,
+      "name": "Property 46",
+      "address": "Address 46",
+      "price": 243987,
+      "status": "already taken"
+    },
+    {
+      "id": 47,
+      "name": "Property 47",
+      "address": "Address 47",
+      "price": 812394,
+      "status": "for sale"
+    },
+    {
+      "id": 48,
+      "name": "Property 48",
+      "address": "Address 48",
+      "price": 578239,
+      "status": "for rent"
+    },
+    {
+      "id": 49,
+      "name": "Property 49",
+      "address": "Address 49",
+      "price": 932048,
+      "status": "already taken"
+    },
+    {
+      "id": 50,
+      "name": "Property 50",
+      "address": "Address 50",
+      "price": 789321,
+      "status": "for sale"
+    }
+  ]
+}

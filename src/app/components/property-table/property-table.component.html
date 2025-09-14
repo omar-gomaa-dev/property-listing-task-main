@@ -1,0 +1,51 @@
+<div class="filter-search">
+  <input
+    type="text"
+    placeholder="Search properties..."
+    (input)="onSearch($event)"
+  />
+</div>
+
+<table>
+  <thead>
+    <tr>
+      <th>ID</th>
+      <th>Name</th>
+      <th>Address</th>
+      <th>Price</th>
+      <th>
+        Status
+        <select (change)="onFilter($event)">
+          <option value="">All</option>
+          <option value="	for sale">for sale</option>
+          <option value="for rent">for rent</option>
+          <option value="already taken">already taken</option>
+        </select>
+      </th>
+      <th>Action</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr *ngFor="let property of properties(); trackBy: trackById">
+      <td>{{ property.id }}</td>
+      <td>{{ property["name"] }}</td>
+      <td>{{ property.address }}</td>
+      <td>{{ property.price | currency }}</td>
+      <td>{{ property.status }}</td>
+      <td>
+        <button (click)="navigateToDetails(property.id)">Details</button>
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+<div class="actions">
+  @if (loading()) {
+  <p>Loading...</p>
+  } @else if (error()) {
+  <p class="error">{{ error() }}</p>
+  } @else {
+  <button (click)="loadMore()">Load More</button>
+
+  }
+</div>

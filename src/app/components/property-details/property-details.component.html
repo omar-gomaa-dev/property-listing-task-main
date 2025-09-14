@@ -1,0 +1,23 @@
+<div class="details-container">
+  <h1>Property Details</h1>
+
+  <ng-container *ngIf="loading(); else notLoading">
+    <div>Loading...</div>
+  </ng-container>
+  <ng-template #notLoading>
+    <ng-container *ngIf="error(); else showProperty">
+      <div>{{ error() }}</div>
+    </ng-container>
+    <ng-template #showProperty>
+      <ng-container *ngIf="property() as prop">
+        <div class="card">
+          <p><strong>ID:</strong> {{ prop.id }}</p>
+          <p><strong>Name:</strong> {{ prop["name"] }}</p>
+          <p><strong>Address:</strong> {{ prop.address }}</p>
+          <p><strong>Price:</strong> {{ prop.price | currency }}</p>
+          <p><strong>Status:</strong> {{ prop.status }}</p>
+        </div>
+      </ng-container>
+    </ng-template>
+  </ng-template>
+</div>
